@@ -1,0 +1,48 @@
+.chat-section {
+    background-color: var(--blacker-color); /* Background color */
+    padding: 80px;
+    text-align: center;
+    height: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    color: var(--sec-color);
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25d366; /* WhatsApp green color */
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Darker shade on hover */
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .chat-section {
+        padding: 50px;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .chat-section {
+        padding: 30px;
+        height: 40%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .chat-section {
+        padding: 20px;
+        height: 30%;
+    }
+}

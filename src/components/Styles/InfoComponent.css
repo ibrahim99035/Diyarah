@@ -1,0 +1,75 @@
+/* Default styles for larger screens */
+.infoPart {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.infoContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.infoText {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.infoImage img {
+    max-width: 30rem;
+    height: auto;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInBottom 1s forwards;
+    margin-top: 2rem;
+}
+
+.infoContent.inforeverse {
+    flex-direction: row-reverse; /* Reverse the flex direction for the second part */
+}
+
+.infoText h3 {
+    font-size: 1.5rem;
+    color: var(--sec-color);
+}
+
+.infoText p {
+    font-size: 1rem;
+    color: var(--sec-color);
+}
+
+.inforeverse {
+    flex-direction: row-reverse;
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile screen styles */
+@media (max-width: 767px) {
+    .infoContent {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center;
+        width: auto;
+    }
+
+    .infoImage img {
+        max-width: 100%; /* Make the image width 100% on smaller screens */
+        margin-top: 1rem; /* Adjust margin for better spacing */
+    }
+
+    .infoContent.reverse {
+        flex-direction: column-reverse; /* Reverse the order for the second part on smaller screens */
+    }
+}

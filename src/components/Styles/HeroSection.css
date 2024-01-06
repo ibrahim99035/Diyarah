@@ -1,0 +1,96 @@
+.about-us-section {
+    margin: auto;
+    padding: 20px;
+    text-align: right;
+    background-color: var(--blacker-color);
+}
+
+.custom-header h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--sec-color);
+}
+
+.sub-header {
+    font-size: 1.2em;
+    font-size: 20px;
+    color: var(--sec-color); /* Secondary color for highlights */
+    text-align: center;
+}
+
+.Hprofessional-intro-section {
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.Hprofessional-intro-section p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: var(--sec-color); /* Secondary color for highlights */
+}
+
+.hero-image {
+    max-width: 40rem;
+}
+
+#heroImageDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#SeeMoreDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#SeeMore {
+    font-size: 18px;
+    background-color: var(--dark-color); /* Dark background color */
+    padding: 10px;
+    color: var(--bg-color); /* Background color for text */
+    border-radius: 15px;
+}
+
+#SeeMore:hover {
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: var(--sec-color); /* Secondary color for highlights */
+}
+
+
+/* Media query for smaller screens, adjust as needed */
+@media (max-width: 768px) {
+    .about-us-section {
+        padding: 10px; /* Adjust padding as needed */
+    }
+
+    .custom-header h2 {
+        font-size: 1.5em; /* Adjust font size as needed */
+    }
+
+    .sub-header {
+        font-size: 1em; /* Adjust font size as needed */
+    }
+
+    .Hprofessional-intro-section {
+        font-size: 1em; /* Adjust font size as needed */
+    }
+
+    .hero-image {
+        max-width: 100%; /* Make the image responsive to the width of its container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    #SeeMore {
+        font-size: 16px; /* Adjust font size as needed */
+        padding: 8px; /* Adjust padding as needed */
+        border-radius: 10px; /* Adjust border radius as needed */
+    }
+
+    #SeeMore:hover {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}

@@ -1,0 +1,86 @@
+.video-section {
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Ensure content is on top of the video */
+    padding: 20px;
+    color: var(--sec-color); /* Secondary color for text */
+    text-align: left;
+    width: 100%;
+    margin-top: 7rem;
+}
+
+.content h1 {
+    font-size: 4rem;
+    margin: 0;
+    text-align: right;
+}
+
+.content p {
+    font-size: 2.5rem;
+    margin: 0;
+    text-align: right;
+}
+
+#viseoParagraph {
+    font-size: 5rem;
+    margin: 20px;
+    color: var(--sec-color); /* Secondary color for this paragraph */
+}
+
+.vlogoDiv{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.vidLogo{
+    width: 10rem;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .vlogoDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .vidLogo{
+        width: auto;
+    }
+
+    video {
+        height: auto;
+    }
+
+    .content{
+        margin-top: 1.5rem;
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .content p {
+        font-size: 0.75rem;
+        margin: 0;
+        text-align: center;
+    }
+}

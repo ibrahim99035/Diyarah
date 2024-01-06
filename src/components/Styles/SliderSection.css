@@ -1,0 +1,42 @@
+.background-slide{
+    background-color: var(--blacker-color);
+}
+
+.slide {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+  
+.slide img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; 
+}
+  
+.navigation-buttons{
+    background-color: var(--dark-color);
+}
+
+.navigation-buttons button{
+    background-color: var(--dark-color);
+}
+
+.slick-slider {
+    overflow: hidden !important;
+}
+    
+.slick-vertical .slick-list {
+    transform: none !important;
+}
+
+@media (max-width: 768px) {
+    .slide {
+        height: auto; /* Adjust height as needed */
+    }
+
+    .slide img {
+        height: auto; /* Adjust height as needed */
+    }
+}

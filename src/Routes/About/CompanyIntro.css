@@ -1,0 +1,90 @@
+.professional-intro-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    color: var(--sec-color);
+}
+
+.professional-intro-container h1 {
+    text-align: center;
+    color: var(--sec-color); /* Dark background color */
+}
+
+.professional-intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#heroP {
+    font-size: 20px;
+    color: var(--sec-color); /* Secondary color for highlights */
+}
+
+.professional-intro-section .reverse {
+    flex-direction: row-reverse;
+}
+
+.professional-intro-text {
+    flex: 1;
+    text-align: right;
+}
+
+.professional-intro-text h2 {
+    font-size: 35px;
+    color: var(--sec-color); /* Dark background color */
+    margin-top: 0;
+}
+
+.professional-intro-text p {
+    font-size: 20px;
+    color: var(--sec-color); /* Secondary color for highlights */
+}
+
+.animated-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: fadeInRight 1s forwards;
+    margin-left: 2rem;
+}
+
+#alogoDiv {
+    display: flex;
+    justify-content: center;
+    margin-left: 1.3rem;
+}
+
+.alogo {
+    width: 200%;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.professional-intro-container.animate {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@media (max-width: 767px) {
+    .professional-intro-section{
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+    }
+    .professional-intro-section .reverse {
+        flex-direction: row;
+    }
+}
