@@ -69,7 +69,7 @@
         margin-top: 1rem; /* Adjust margin for better spacing */
     }
 
-    .infoContent.reverse {
+    .infoContent.inforeverse {
         flex-direction: column-reverse; /* Reverse the order for the second part on smaller screens */
     }
 }
