@@ -16,11 +16,25 @@
 }
   
 .navigation-buttons{
-    background-color: var(--dark-color);
+    background-color: var(--blacker-color);
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .navigation-buttons button{
     background-color: var(--dark-color);
+    color: var(--bg-color);
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.navigation-buttons button:hover{
+    background-color: var(--sec-color);
 }
 
 .slick-slider {

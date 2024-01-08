@@ -42,7 +42,7 @@ const TermsAndConditions = () => {
         </p>
       </section>
       <div id='plogoDiv'>
-        <img src={DiyarahLogo} alt="Logo" className="plogo"/>
+        <img src={DiyarahLogo} alt="Company Logo" className="plogo" loading="lazy" />
       </div>
     </div>
   );

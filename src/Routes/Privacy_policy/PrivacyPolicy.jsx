@@ -65,7 +65,7 @@ const PrivacyPolicy = () => {
         <p>نشكركم على ثقتكم في شركة ديارة العقارية. نحن نعمل جاهدين لتقديم خدمات عالية الجودة مع احترام تام لخصوصيتكم وحقوقكم.</p>
       </section>
       <div id='plogoDiv'>
-        <img src={DiyarahLogo} alt="Logo" className="plogo"/>
+        <img src={DiyarahLogo} alt="Company Logo" className="plogo" loading="lazy" />
       </div>
     </div>
   );

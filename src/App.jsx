@@ -4,20 +4,17 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Header from './components/Header';
 import SliderSection from './components/SliderSection';
 import AboutUsSection from './components/HeroSection';
-import NewProjecrSection from './components/NewProjectSection'
 import ChatWithUsSection from './components/ChatWithUsSection';
 import GoogleMapSection from './components/GoogleMapSection';
-import AdditionalSections from './components/AdditionalSections';
 import Footer from './components/Footer';
 import GoToTopButton from './components/GoToTopButton';
-import VideoSection from './components/VideoSection';
 import CardComponent from './components/CardComponent'
 import InfoComponent from './components/InfoComponent';
-
 import PrivacyPolicy from './Routes/Privacy_policy/PrivacyPolicy';
 import TermsAndConditions from './Routes/Terms_and_Conditions/TermsAndConditions';
 import IntellectualPropertyRights from './Routes/IntellectualPropertyRights/IntellectualPropertyRights';
 import About from './Routes/About/CompanyIntro'
+import NotFound from './components/NotFound'
 
 const App = () => {
   return (
@@ -32,8 +29,7 @@ const App = () => {
                 <SliderSection />
                 <AboutUsSection />
                 <CardComponent />
-                <ChatWithUsSection /> 
-                <AdditionalSections /> 
+                <ChatWithUsSection />
                 <Footer />
                 <GoToTopButton />
               </>
@@ -56,7 +52,7 @@ const App = () => {
             </>
           } />
           
-          <Route path='/about' element= {
+          <Route path='/about-us' element= {
             <>
               <Header />
               <About />
@@ -109,6 +105,7 @@ const App = () => {
               <GoToTopButton />
             </>
           } />
+          <Route path='*' element = {<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>

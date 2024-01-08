@@ -3,10 +3,10 @@ import './CompanyIntro.css'; // Import your CSS file
 
 import DiyarahLogo from './logo.png'
 
-import Building1  from './Buildingds/Building1.jpg'
-import Building2  from './Buildingds/Building2.jpg'
-import Building3  from './Buildingds/Building3.jpg'
-import Building4  from './Buildingds/Building5.jpg'
+import Building1  from './Buildingds/Building1.webp'
+import Building2  from './Buildingds/Building2.webp'
+import Building3  from './Buildingds/Building3.webp'
+import Building4  from './Buildingds/Building5.webp'
 
 
 
@@ -44,7 +44,7 @@ const CompanyIntro = () => {
         <h1>من نحن و ما هي قيمنا</h1>
       <div className="professional-intro-section">
         <div id='alogoDiv'>
-            <img src={DiyarahLogo} alt="Logo" className="alogo"/>
+            <img src={DiyarahLogo} alt="Logo" className="alogo" loading="lazy" />
         </div>
         <p id='heroP'>
         تقدم شركة ديارة العقارية تجربة استثنائية في عالم العقارات، حيث يتميز عملنا بالاحترافية واحترام الخصوصية. نحن نفخر بتقديم خدمات عقارية شاملة تشمل البيع والشراء وإدارة العقارات. يتميز فريقنا بالتفرد في التعامل مع كل عميل، مع التركيز الكامل على تلبية احتياجاتهم الفريدة. نحن نلتزم بحماية خصوصية عملائنا وضمان أمان معلوماتهم. تقنياتنا المتقدمة والابتكار تضمن لعملائنا تجربة متميزة وفعّالة. بفهم عميق لسوق العقارات واستخدام التكنولوجيا، نسعى دائمًا لتحقيق أعلى قيمة لعملائنا. اكتشف الفرق مع ديارة العقارية، حيث نسهم في بناء مستقبلك بكفاءة واستدامة.
@@ -69,6 +69,7 @@ const CompanyIntro = () => {
           alt="Professional Image 1"
           className="animated-image"
           id='Building1'
+          loading="lazy"
         />
       </div>
 
@@ -79,6 +80,7 @@ const CompanyIntro = () => {
           alt="Professional Image 2"
           className="animated-image"
           id='Building2'
+          loading="lazy"
         />
         <div className="professional-intro-text">
           <h2>احترام الخصوصية</h2>
@@ -109,6 +111,7 @@ const CompanyIntro = () => {
           alt="Professional Image 3"
           className="animated-image"
           id='Building3'
+          loading="lazy"
         />
       </div>
 
@@ -119,6 +122,7 @@ const CompanyIntro = () => {
           alt="Professional Image 4"
           className="animated-image"
           id='Building4'
+          loading="lazy"
         />
         <div className="professional-intro-text">
           <h2>تقنيات متقدمة وابتكار</h2>

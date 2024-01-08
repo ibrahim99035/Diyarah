@@ -15,9 +15,10 @@ const HeroSection = () => {
       <div id='heroImageDiv'>
         <img
             src= {HeroSectionBuildings}
-            alt="Professional Image 1"
+            alt="Buidings Grafity"
             className="hero-image"
             id='HeroBuilding'
+            loading="lazy" 
         />
       </div>
       <br />
@@ -35,7 +36,7 @@ const HeroSection = () => {
         </p>
       </div>
       <div id='SeeMoreDiv'>
-        <a href="/about" target='_blank' id='SeeMore'>اطلع على المزيد ...</a>
+        <a href="/about-us" target='_blank' id='SeeMore'>اطلع على المزيد ...</a>
       </div>
     </div>
   );

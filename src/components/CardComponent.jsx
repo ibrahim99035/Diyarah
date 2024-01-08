@@ -4,9 +4,9 @@ import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 import './Styles/CardComponent.css'
 
-import image1 from './Images/Buildingds/Narges.jpg'
-import image2 from './Images/Buildingds/BuildingSafa.jpg'
-import image3 from './Images/Buildingds/Building11.jpg'
+import image1 from './Images/Buildingds/Narges.webp'
+import image2 from './Images/Buildingds/BuildingSafa.webp'
+import image3 from './Images/Buildingds/Building11.webp'
 
 const CardComponent = () => {
   const [ref, inView] = useInView({
@@ -50,7 +50,7 @@ const CardComponent = () => {
 const CardItem = ({ imgSrc, title, description, partID }) => {
   return (
     <div className="cardDiv">
-      <img src={imgSrc} alt="Card" />
+      <img src={imgSrc} alt={`Card Image for ${title}`} loading="lazy" />
       <h3>{title}</h3>
       <p>{description}</p>
     </div>

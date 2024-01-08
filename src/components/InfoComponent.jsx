@@ -4,9 +4,9 @@ import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 import './Styles/InfoComponent.css';
 
-import image1 from './Images/Buildingds/Narges.jpg'
-import image2 from './Images/Buildingds/BuildingSafa.jpg'
-import image3 from './Images/Buildingds/Building11.jpg'
+import image1 from './Images/Buildingds/Narges.webp'
+import image2 from './Images/Buildingds/BuildingSafa.webp'
+import image3 from './Images/Buildingds/Building11.webp'
 
 const InfoComponent = () => {
   return (
@@ -80,7 +80,7 @@ const InfoPart = ({ title, description, imgSrc, fromLeft, fromRight, partId }) =
           <p>{description}</p>
         </div>
         <div className="infoImage">
-          <img src={imgSrc} alt={`Part ${title}`} />
+          <img src={imgSrc} alt={`Part ${title}`} loading="lazy" />
         </div>
       </div>
     </animated.div>
