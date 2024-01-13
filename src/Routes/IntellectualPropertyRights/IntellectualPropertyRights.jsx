@@ -1,6 +1,6 @@
 import React from 'react';
 import './IntellectualPropertyRights.css';
-import DiyarahLogo from './logo.png'
+import DiyarahLogo from '/Images/Icons/icon4.png'
 
 const IntellectualPropertyRights = () => {
   return (

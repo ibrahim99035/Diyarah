@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import './Styles/Header.css';
 import './Styles/VideoSection.css';
-import DiyarahLogo from './Images/Icons/logoWithSlogan.png'
-import BackVideo from './Videos/BackVideo.mp4'
+
+import DiyarahLogo from '/Images/Icons/logoWithSlogan.png'
+import BackVideo from '/Videos/BackVideo.mp4'
 
 const Header = () => {
   // Step 2: Add state to track whether the navigation list is active or not

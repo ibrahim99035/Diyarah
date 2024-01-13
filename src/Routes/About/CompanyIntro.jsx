@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './CompanyIntro.css'; // Import your CSS file
 
-import DiyarahLogo from './logo.png'
+import DiyarahLogo from '/Images/Icons/icon4.png'
 
 import Building1  from './Buildingds/Building1.webp'
 import Building2  from './Buildingds/Building2.webp'

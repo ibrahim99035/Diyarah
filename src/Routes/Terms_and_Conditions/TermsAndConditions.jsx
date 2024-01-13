@@ -1,6 +1,6 @@
 import React from 'react';
 import './TermsAndConditions.css'; // Import your CSS file
-import DiyarahLogo from './logo.png'
+import DiyarahLogo from '/Images/Icons/icon4.png'
 
 const TermsAndConditions = () => {
   return (

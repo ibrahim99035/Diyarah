@@ -1,5 +1,5 @@
 import React from 'react';
-import whatsappicon from './Images/Icons/whatsapp.png'
+import whatsappicon from '/Images/Social/whatsapp.png'
 import './Styles/ChatWithUsSection.css'; // Import your CSS file
 
 const ChatWithUsSection = () => {

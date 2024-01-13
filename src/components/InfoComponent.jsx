@@ -4,9 +4,9 @@ import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 import './Styles/InfoComponent.css';
 
-import image1 from './Images/Buildingds/NargesBuildings.webp'
-import image2 from './Images/Buildingds/Damaam.webp'
-import image3 from './Images/Buildingds/Safa.webp'
+import image1 from '/Images/Buildingds/NargesBuildings.webp'
+import image2 from '/Images/Buildingds/Damaam.webp'
+import image3 from '/Images/Buildingds/Safa.webp'
 
 const InfoComponent = () => {
   return (

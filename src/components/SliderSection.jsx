@@ -5,15 +5,15 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import './Styles/SliderSection.css';
 
-import Building1 from './Images/Buildingds/Building1.webp'
-import Building2 from './Images/Buildingds/Building2.webp'
-import Building3 from './Images/Buildingds/Building3.webp'
-import Building4 from './Images/Buildingds/Building4.webp'
-import Building5 from './Images/Buildingds/Building5.webp'
-import Building6 from './Images/Buildingds/Building6.webp'
-import Building7 from './Images/Buildingds/Building7.webp'
-import Building8 from './Images/Buildingds/Building8.webp'
-import Building9 from './Images/Buildingds/Building9.webp'
+import Building1 from '/Images/Buildingds/Building1.webp'
+import Building2 from '/Images/Buildingds/Building2.webp'
+import Building3 from '/Images/Buildingds/Building3.webp'
+import Building4 from '/Images/Buildingds/Building4.webp'
+import Building5 from '/Images/Buildingds/Building5.webp'
+import Building6 from '/Images/Buildingds/Building6.webp'
+import Building7 from '/Images/Buildingds/Building7.webp'
+import Building8 from '/Images/Buildingds/Building8.webp'
+import Building9 from '/Images/Buildingds/Building9.webp'
 
 
 const SliderSection = () => {

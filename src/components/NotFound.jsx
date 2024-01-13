@@ -1,7 +1,7 @@
 import React from 'react';
 import './Styles/NotFound.css'
-import DiyarahLogo from './Images/Icons/logoWithSlogan.png'
-import NotFoundIcon from './Images/Icons/error-404.png'
+import DiyarahLogo from '/Images/Icons/logoWithSlogan.png'
+import NotFoundIcon from '/Images/Icons/error-404.png'
 
 const NotFound = () => {
   return (

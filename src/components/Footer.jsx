@@ -1,11 +1,11 @@
 import React from 'react';
 import './Styles/Footer.css'; 
-import DiyarahLogo from './Images/Icons/icon4.png'
+import DiyarahLogo from '/Images/Icons/icon4.png'
 
-import WhatsappLogo from './Images/Icons/whatsapp.png'
-import FacebookLogo from './Images/Icons/facebook.png'
-import LinkedinLogo from './Images/Icons/linkedin.png'
-import Twitter_Logo from './Images/Icons/twitter.png'
+import WhatsappLogo from '/Images/Social/whatsapp.png'
+import FacebookLogo from '/Images/Social/facebook.png'
+import LinkedinLogo from '/Images/Social/linkedin.png'
+import Twitter_Logo from '/Images/Social/twitter.png'
 
 const Footer = () => {
   return (

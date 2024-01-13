@@ -1,6 +1,6 @@
 import React from 'react';
 import './PrivacyPloicy.css'; // Import your CSS file
-import DiyarahLogo from './logo.png'
+import DiyarahLogo from '/Images/Icons/icon4.png'
 
 const PrivacyPolicy = () => {
   return (
