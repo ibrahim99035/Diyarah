@@ -4,9 +4,9 @@ import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 import './Styles/CardComponent.css'
 
-import image1 from './Images/Buildingds/Narges.webp'
-import image2 from './Images/Buildingds/BuildingSafa.webp'
-import image3 from './Images/Buildingds/Building11.webp'
+import image1 from './Images/Buildingds/NargesBuildings.webp'
+import image2 from './Images/Buildingds/Damaam.webp'
+import image3 from './Images/Buildingds/Safa.webp'
 
 const CardComponent = () => {
   const [ref, inView] = useInView({
@@ -26,13 +26,13 @@ const CardComponent = () => {
       <div className="animatedCardComponent">
         <CardItem 
           imgSrc={image1}  
-          title="Alnarges Buildings" 
+          title="The Loft" 
           description="مجمع سكني فاخر يتألق بأربعة أبراج زجاجية فريدة. يجمع بين التصميم العصري والراحة الفاخرة، ويوفر للسكان بيئة حياة استثنائية مع مناطق خضراء جذابة ومرافق ترفيهية متكاملة." 
           partID = "projectPartId1" 
         />
         <CardItem 
           imgSrc={image2} 
-          title="Dammam Building" 
+          title="Gulf Square" 
           description="تتألق في مدينة الدمام، بتصميم حديث يجمع بين الأناقة والتكنولوجيا. بيئة سكنية مريحة ومرافق شاملة، مع لمسات فنية تعكس تراث المدينة" 
           partID = "projectPartId2" 
         />

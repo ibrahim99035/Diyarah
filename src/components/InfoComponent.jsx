@@ -4,15 +4,15 @@ import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 import './Styles/InfoComponent.css';
 
-import image1 from './Images/Buildingds/Narges.webp'
-import image2 from './Images/Buildingds/BuildingSafa.webp'
-import image3 from './Images/Buildingds/Building11.webp'
+import image1 from './Images/Buildingds/NargesBuildings.webp'
+import image2 from './Images/Buildingds/Damaam.webp'
+import image3 from './Images/Buildingds/Safa.webp'
 
 const InfoComponent = () => {
   return (
     <div>
       <InfoPart
-        title="Alnarges Buildings" 
+        title="The Loft" 
         description= {`
         عمائر النرجس، هو تحفة معمارية فريدة تتألق في قلب مدينة الرياض بالمملكة العربية السعودية. يتسم المشروع بأربعة أبراج فاخرة تتسابق لتحتل سماء المدينة بأناقة وجمال. تتألق واجهات المباني بتصاميم هندسية مبتكرة وزجاج فاخر يعكس أشعة الشمس بألوان رائعة. تتناغم الأبراج المتعددة بأسلوب فريد، مما يخلق لوحة جمالية تعكس روعة التصميم والابتكار في عالم العمارة.
 
@@ -26,7 +26,7 @@ const InfoComponent = () => {
         fromLeft
       />
       <InfoPart
-        title="Dammam Building" 
+        title="Gulf Square" 
         description={`
             عمارة الدمام هي مشروع معماري يتحفنا بسحر الابتكار والتصميم الراقي في مدينة الدمام بالمملكة العربية السعودية. تتألق العمارة بواجهات زجاجية متطورة وأنيقة، تعكس جمالها في ضوء الشمس. يبرز التصميم الهندسي للعمارة بأسلوب جريء، حيث يجمع بين الأناقة الحديثة واللمسات الفنية التقليدية التي تعزز من فرادة المكان.
 

@@ -12,7 +12,7 @@
 .whatsapp-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #25d366; /* WhatsApp green color */
+    background-color: var(--sec-color); /* WhatsApp green color */
     color: white;
     text-decoration: none;
     border-radius: 12px;
@@ -22,7 +22,7 @@
 }
 
 .whatsapp-button:hover {
-    background-color: #128C7E; /* Darker shade on hover */
+    background-color: #a07b4d; /* Darker shade on hover */
     color: white;
 }
 

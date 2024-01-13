@@ -47,7 +47,7 @@
   justify-content: space-between;
   margin: 0;
   margin-top: -15px;
-  position: fixed;
+  position: relative;
   z-index: 1000;
   color: var(--sec-color);
   width: 100%;
@@ -78,7 +78,7 @@
 }
 
 .nav-link:hover {
-  color: var(--dark-color);
+  color: var(--bg-color);
   border-bottom: 3px solid var(--dark-color);
 }
 

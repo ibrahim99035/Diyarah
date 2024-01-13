@@ -1,7 +1,7 @@
 /* Define root-level variables for color palette */
 :root {
   --main-color: #143d63;  /* Main color for text and accents */
-  --sec-color: #C4B45D;   /* Secondary color for highlights */
+  --sec-color: #b8905b;   /* Secondary color for highlights */
   --dark-color: #141526;  /* Dark background color */
   --bg-color: #f2f8fb;    /* Background color */
   --blacker-color: #010102;

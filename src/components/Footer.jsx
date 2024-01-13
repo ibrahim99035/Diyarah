@@ -17,7 +17,7 @@ const Footer = () => {
           </a>
           <br />
         </div>
-            <div className="footer-content" id='contactUSFooter'>
+            {/* <div className="footer-content" id='contactUSFooter'>
                 <h3>تواصل معنا</h3>
                 <a href="https://api.whatsapp.com/send?phone=966572696382" target="_blank">
                   <img src={WhatsappLogo} alt="Whatsapp Icon" loading="lazy" />
@@ -26,7 +26,7 @@ const Footer = () => {
                 <a href="https://api.whatsapp.com/send?phone=966572696382" target="_blank">
                   <p>+966572696382</p>
                 </a>
-            </div>
+            </div> */}
             <div className="footer-content">
                 <h3>روابط هامة</h3>
                 <p><a href="/terms-and-conditions" target='_blank'>الشروط و الأحكام </a></p> <br />
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
   
             <div className="footer-content" id='followUs'>
-                <h3>تابعنا</h3>
+                <h3>تواصل معنا</h3>
                 <div id='iconsContainer'>
                   <a href="https://www.linkedin.com" target='_blank'>
                     <img src={LinkedinLogo} alt="Linkedin Icon" loading="lazy" />
@@ -46,6 +46,9 @@ const Footer = () => {
                   </a>
                   <a href="https://www.twitter.com" target='_blank'>
                     <img src={Twitter_Logo} alt="Twitter Icon" loading="lazy" />  
+                  </a>
+                  <a href="https://api.whatsapp.com/send?phone=966572696382" target="_blank">
+                    <img src={WhatsappLogo} alt="Whatsapp Icon" loading="lazy" />
                   </a>
                 </div>
             </div>
