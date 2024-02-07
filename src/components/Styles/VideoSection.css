@@ -83,4 +83,8 @@ video {
         margin: 0;
         text-align: center;
     }
+
+    .video-section {
+        height: 20vh;
+    }
 }

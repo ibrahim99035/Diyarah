@@ -113,4 +113,7 @@
   .nav-list {
     flex-direction: column;
   } 
+  #vlogoDiv{
+    margin: auto;
+  }
 }

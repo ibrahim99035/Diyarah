@@ -48,6 +48,7 @@
 @media (max-width: 768px) {
     .slide {
         height: auto; /* Adjust height as needed */
+        margin-top: 5px;
     }
 
     .slide img {

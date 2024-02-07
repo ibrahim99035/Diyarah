@@ -75,3 +75,10 @@
 .terms-and-conditions-container {
     animation: fadeIn 1s ease-in-out;
 }
+
+@media only screen and (max-width: 768px) {
+    .terms-and-conditions-container{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
