@@ -25,15 +25,12 @@ const Header = () => {
         </div>
       </nav>
       <div className="video-section">
-      <video autoPlay loop playsInline>
+      <video autoPlay loop playsInline muted>
         <source src={ BackVideo } type="video/mp4" />
         متصفحك لا يدعم تنسيق الفيديو المضاف الى الخلفية
       </video>
-      {/* Your content goes here */}
+      
       <div className="content">
-        {/* <div id='vlogoDiv'>
-          <img src={DiyarahLogo} alt="Logo" className="vidLogo"/>
-        </div> */}
         <div>
          <h1>شركة ديارة العقارية</h1>
          <p>نبني المستقبل.</p>
