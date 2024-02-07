@@ -53,6 +53,12 @@
     margin-left: 2rem;
 }
 
+.alogo{
+    max-width: 7rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #alogoDiv {
     display: flex;
     justify-content: center;
