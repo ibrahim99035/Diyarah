@@ -1,7 +1,7 @@
 import React from 'react';
 import './Styles/HeroSection.css';
 
-import HeroSectionBuildings from '/Images/Buildingds/heroSectionBuildingsPixeled.png'
+import HeroSectionBuildings from '/Images/Buildingds/heroSectionBuildingsPixeled.jpg'
 
 const HeroSection = () => {
   return (

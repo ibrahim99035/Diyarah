@@ -33,11 +33,13 @@
 
 .hero-image {
     max-width: 40rem;
+    border-radius: 15px;
 }
 
 #heroImageDiv {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 #SeeMoreDiv {
@@ -80,7 +82,7 @@
 
     .hero-image {
         max-width: 100%; /* Make the image responsive to the width of its container */
-        height: auto; /* Maintain aspect ratio */
+        height: auto; /* Maintain aspect ratio */ 
     }
 
     #SeeMore {
