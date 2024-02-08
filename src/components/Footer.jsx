@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
         </div>
         <br /> <br /> <br /> <br /> <br /> <br />
-        <p className="copyright">© 2023 . كل الحقوق محفوظة لشركة ديارة العقارية.</p>
+        <p className="copyright">© 2024 . كل الحقوق محفوظة لشركة ديارة العقارية.</p>
         <br />
         <p id='hema'>Made by <a href="https://www.linkedin.com/in/ibrahim-abu-eita-0b2490206/" target='_blank'>Ibrahim Abu Eita</a> & <a href="http://www.linkedin.com/in/salma-khaled-539847260" target="_blank"> Salma Khaled</a></p>
     </footer>
