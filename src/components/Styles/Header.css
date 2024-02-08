@@ -116,4 +116,8 @@
   #vlogoDiv{
     margin: auto;
   }
+  .vidLogo{
+    max-width: 15rem;
+    margin: auto;
+  }
 }
