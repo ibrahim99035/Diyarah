@@ -1482,6 +1482,25 @@ The provided CSS code contains various general styles for a webpage. Here's a su
 These styles provide a foundation for consistent styling and layout across different elements of the application.
 
 ---
+
+## Font Used:
+
+#### [El Messiri Font](https://fonts.google.com/specimen/El+Messiri) on Google Fonts by [Mohamed Gaber](https://fonts.google.com/?query=Mohamed+Gaber) and [Jovanny Lemonad](https://fonts.google.com/?query=Jovanny+Lemonad). 
+
+---
+
+## Assets Plateforms:
+
+##### 1- [Flat Icon](https://www.flaticon.com/) for Social Media Icons.
+
+##### 2- [Brand Crowd](https://brandcrowd.com/) for Logo Making.
+
+##### 3- [Unsplash](https://unsplash.com/) for Building Imags.
+
+##### 4- [Shutter Stock](https://www.shutterstock.com/) for Videos.
+
+---
+
 ## Deployment
 The app is deployed on Netlify directly from the GitHub repository. Whenever changes are pushed to the `main` branch, Netlify automatically builds and deploys the latest version of the app.
 ### Redirection Management
@@ -1492,6 +1511,9 @@ To manage redirections within the app, we utilize a `_redirects` file. This file
 ```
 
 This rule ensures that any URL path within the app is redirected to the `index.html` file, allowing client-side routing to work smoothly.
+
+### Result: [ديارة العقارية](https://voluble-bublanina-db5156.netlify.app/).
+
 ### Development
 If you'd like to run this project locally for development purposes, you can follow these steps:
 1. Clone this repository to your local machine.
