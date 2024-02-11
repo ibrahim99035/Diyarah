@@ -1512,7 +1512,8 @@ To manage redirections within the app, we utilize a `_redirects` file. This file
 
 This rule ensures that any URL path within the app is redirected to the `index.html` file, allowing client-side routing to work smoothly.
 
-### Result: [ديارة العقارية](https://voluble-bublanina-db5156.netlify.app/).
+### Result: [ديارة العقارية](https://voluble-bublanina-db5156.netlify.app/). 
+##### Domain: diyarah.sa
 
 ### Development
 If you'd like to run this project locally for development purposes, you can follow these steps:

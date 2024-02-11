@@ -2,63 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Home Page -->
   <url>
-    <loc>https://yourdomain.com/</loc>
+    <loc>https://diyarah.sa/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Projects Page -->
   <url>
-    <loc>https://yourdomain.com/projects</loc>
+    <loc>https://diyarah.sa/projects</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- About Us Page -->
   <url>
-    <loc>https://yourdomain.com/about-us</loc>
+    <loc>https://diyarah.sa/about-us</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Terms and Conditions Page -->
   <url>
-    <loc>https://yourdomain.com/terms-and-conditions</loc>
+    <loc>https://diyarah.sa/terms-and-conditions</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Intellectual Property Page -->
   <url>
-    <loc>https://yourdomain.com/intellectual-property</loc>
+    <loc>https://diyarah.sa/intellectual-property</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Privacy Policy Page -->
   <url>
-    <loc>https://yourdomain.com/privacy-policy</loc>
+    <loc>https://diyarah.sa/privacy-policy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Location Page -->
   <url>
-    <loc>https://yourdomain.com/location</loc>
+    <loc>https://diyarah.sa/location</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Chatting Page -->
   <url>
-    <loc>https://yourdomain.com/chatting</loc>
+    <loc>https://diyarah.sa/chatting</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <!-- 404 Not Found Page -->
   <url>
-    <loc>https://yourdomain.com/404</loc>
+    <loc>https://diyarah.sa/404</loc>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
