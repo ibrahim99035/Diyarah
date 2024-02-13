@@ -3,7 +3,7 @@ import './Styles/Header.css';
 import './Styles/VideoSection.css';
 
 import DiyarahLogo from '/Images/Icons/logoWithSlogan.png'
-import BackVideo from '/Videos/BackVid.mp4'
+import BackVideo from '/Videos/BackgroundVideo.mp4'
 
 const Header = () => {
   const [navListActive, setNavListActive] = useState(false);
