@@ -3,15 +3,11 @@ import './CompanyIntro.css'; // Import your CSS file
 
 import DiyarahLogo from '/Images/Icons/icon4.png'
 
-import Building1  from './Buildingds/Building1.webp'
-import Building2  from './Buildingds/Building2.webp'
-import Building3  from './Buildingds/Building3.webp'
-import Building4  from './Buildingds/Building5.webp'
-
-
+import Building1  from '/Images/Buildingds/Building1.webp'
+import Building2  from '/Images/Buildingds/Building2.webp'
+import Building3  from '/Images/Buildingds/Building3.webp'
 
 const CompanyIntro = () => {
-
   const professionalIntroRef = useRef(null);
 
   useEffect(() => {
@@ -146,27 +142,6 @@ const CompanyIntro = () => {
           loading="lazy"
         />
       </div>
-
-      {/* 
-      <div className="professional-intro-section reverse">
-        <img
-          src={Building4}
-          alt="Professional Image 4"
-          className="animated-image"
-          id='Building4'
-          loading="lazy"
-        />
-        <div className="professional-intro-text">
-          <h2>تقنيات متقدمة وابتكار</h2>
-          <p>
-            في مجال العقارات، نضع نصب أعيننا التقنيات الحديثة وروح الابتكار لتقديم خدمات متميزة. نعتمد على أحدث التطورات التكنولوجية والابتكارات لتحقيق حلول متطورة وفعّالة تلبي توقعات واحتياجات عملائنا، مما يعزز مكانتنا كشركة رائدة في السوق.
-
-            نحن ندرك أهمية التكنولوجيا في تحسين تجارب العملاء وتسهيل العمليات. لذلك، نجمع بين استخدام أحدث الأدوات التكنولوجية والابتكار في كل جانب من جوانب خدماتنا. يسهم تكامل التقنيات المتقدمة في تسهيل العمليات وتحسين كفاءة تقديم الخدمات، مما يمنح عملائنا تجربة فريدة ومتميزة.
-
-            باعتبارنا روادًا في مجالنا، نلتزم بالبحث المستمر عن أحدث التقنيات والابتكارات لضمان استمرارية تقديم خدمات عالية الجودة وتميزنا كشركة تتبنى التقدم التكنولوجي.
-          </p>
-        </div>
-      </div> */}
     </div>
   );
 };
