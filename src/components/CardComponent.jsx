@@ -7,6 +7,7 @@ import './Styles/CardComponent.css'
 import image1 from '/Images/Buildingds/NargesBuildings.webp'
 import image2 from '/Images/Buildingds/Damaam.webp'
 import image3 from '/Images/Buildingds/Safa.webp'
+import image4 from '/Images/Buildingds/TheViewProject.webp'
 
 const CardComponent = () => {
   const [ref, inView] = useInView({
@@ -39,8 +40,14 @@ const CardComponent = () => {
         <CardItem 
           imgSrc={image3} 
           title="Safa Villas" 
-          description="مشروع فلل سكنية في حي الصفا بالأحساء، يضم 6 فلل بتصاميم داخلية مذهلة ومساحات شاسعة، بمساحة إجمالية 529م للمشروع و315م لكل فيلا. يوفر حلول سكنية اقتصادية مع خيارات متعددة للعائلات." 
+          description="مشروع فلل سكنية في حي الصفا بالاحساء. يضم 6 فلل بتصاميم داخلية مذهلة ومساحات شاسعة. بمساحة 529م لكل فيلا. يوفر حلول سكنية اقتصادية مع خيارات متعددة للعائلات." 
           partID = "projectPartId3" 
+        />
+        <CardItem 
+          imgSrc={image4} 
+          title="The View" 
+          description="ديارة العقارية تُقدم فرصة استثمارية في مدينة الإحساء: فندق سياحي 4 نجوم، 120 غرفة، 10 معارض، مواقف لـ 200 سيارة، مساحات تجارية، ملاعب، مسطحات خضراء، وجهة تسوق." 
+          partID = "projectPartId4" 
         />
       </div>
     </animated.div>
