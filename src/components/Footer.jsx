@@ -3,7 +3,7 @@ import './Styles/Footer.css';
 import DiyarahLogo from '/Images/Icons/icon4.png'
 
 import WhatsappLogo from '/Images/Social/whatsapp.png'
-import FacebookLogo from '/Images/Social/facebook.png'
+import InstagramLogo from '/Images/Social/instagram.png'
 import LinkedinLogo from '/Images/Social/linkedin.png'
 import Twitter_Logo from '/Images/Social/twitter.png'
 
@@ -38,13 +38,13 @@ const Footer = () => {
             <div className="footer-content" id='followUs'>
                 <h3>تواصل معنا</h3>
                 <div id='iconsContainer'>
-                  <a href="https://www.linkedin.com" target='_blank'>
+                  <a href="https://www.linkedin.com/company/diyarah-real-estate-company/" target='_blank'>
                     <img src={LinkedinLogo} alt="Linkedin Icon" loading="lazy" />
                   </a>
-                  <a href="https://www.facebook.com" target='_blank'>
-                    <img src={FacebookLogo} alt="Facebook Icon" loading="lazy" /> 
+                  <a href="https://www.instagram.com/diyarah.sa/?igsh=MWMyNGtmZzN1bmozYQ%3D%3D&utm_source=qr" target='_blank'>
+                    <img src={InstagramLogo} alt="Facebook Icon" loading="lazy" /> 
                   </a>
-                  <a href="https://www.twitter.com" target='_blank'>
+                  <a href="https://twitter.com/diyarahsa?s=21&t=YLugARlaRWNlnNqNJIA10w" target='_blank'>
                     <img src={Twitter_Logo} alt="Twitter Icon" loading="lazy" />  
                   </a>
                   <a href="https://api.whatsapp.com/send?phone=966572696382" target="_blank">
